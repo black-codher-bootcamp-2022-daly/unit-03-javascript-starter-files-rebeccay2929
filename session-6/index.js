@@ -4,6 +4,11 @@ const randomNumber = Math.round(Math.random() * 10);
 // ****************************************************TASK 1****************************************************
 
 
+let counter = 0
+while (counter < 10) {
+console.log('while random', randomNumber);
+counter++;
+}
 
 
 
