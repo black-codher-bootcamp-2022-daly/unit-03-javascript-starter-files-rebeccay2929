@@ -8,15 +8,21 @@ c = 0;
 
 console.log ( a + b  + c);
 
-function sayHey () { 
-    console.log ( "Hey!" ); 
-}
+function sayHey (name) { 
+    console.log ( "Hey, " + name + " !" ); 
+};
+sayHey ("Rebecca");
+
 
 function conversation () { 
-    sayHey ();
     console.log ( "How are you?" );
-    console.log ( "Goodbye" );
- 
+    console.log ( "Goodbye" ); 
 }
-
 conversation ();
+
+function futureAge (name, currentAge) {
+    console.log ( "Hi " + name + " !");
+    console.log (" You will be" , futureAge = currentAge +5 + " years old in 5 years time.");
+}
+futureAge ("Rebecca", 7);
+
